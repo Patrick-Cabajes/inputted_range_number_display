@@ -27,15 +27,17 @@ while True:
         elif value >= 41 and value <= 50:
             var41_50.append(value)
         
-        #print the inputted numbers/variables in each array
+        #print how many numbers/variables are inputted in each range
         else:
             print("Invalid Input")
-            print(f"You have inputted {len(var1_10)} number(s) in the range of 1 to 10.")
-            print(f"You have inputted {len(var11_20)} number(s) in the range of 11 to 20.")
-            print(f"You have inputted {len(var21_30)} number(s) in the range of 21 to 30.")
-            print(f"You have inputted {len(var31_40)} number(s) in the range of 31 to 40.")
-            print(f"You have inputted {len(var41_50)} number(s) in the range of 41 to 50.")
             break
-    
+        
     except:
         print("Please input numbers only")
+        break
+
+print(f"You have inputted {len(var1_10)} number(s) in the range of 1 to 10.")
+print(f"You have inputted {len(var11_20)} number(s) in the range of 11 to 20.")
+print(f"You have inputted {len(var21_30)} number(s) in the range of 21 to 30.")
+print(f"You have inputted {len(var31_40)} number(s) in the range of 31 to 40.")
+print(f"You have inputted {len(var41_50)} number(s) in the range of 41 to 50.")
