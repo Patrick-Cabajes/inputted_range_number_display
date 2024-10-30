@@ -29,11 +29,11 @@ while True:
         
         #print how many numbers/variables are inputted in each range
         else:
-            print("Invalid Input")
+            print("Invalid Input!")
             break
         
     except:
-        print("Please input numbers only")
+        print("Please input numbers only!")
         break
 
 print(f"You have inputted {len(var1_10)} number(s) in the range of 1 to 10.")
