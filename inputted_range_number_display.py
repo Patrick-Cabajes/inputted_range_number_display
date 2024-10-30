@@ -19,10 +19,18 @@ while True:
     
     elif value >= 21 and value <= 30:
         var21_30.append(value)
+
+    elif value >= 31 and value <= 40:
+        var31_40.append(value)
+
+    elif value >= 41 and value <= 50:
+        var41_50.append(value)
         
         #print the inputted numbers/variables in each array
     else:
         print("The values you have entered in the range from 1 to 10 are:", var1_10)
         print("The values you have entered in the range from 11 to 20 are:", var11_20)
         print("The values you have entered in the range from 21 to 30 are:", var21_30)
+        print("The values you have entered in the range from 21 to 30 are:", var31_40)
+        print("The values you have entered in the range from 21 to 30 are:", var41_50)
         break
